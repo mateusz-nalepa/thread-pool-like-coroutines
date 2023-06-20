@@ -3,7 +3,7 @@ package com.nalepa.mateusz.threadpoolslikeasync.demo
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.Executor
 
-class ThreadPool_3(
+class ThreadPoolByDelegation(
     private val executor: Executor,
 ): Executor by executor {
 
